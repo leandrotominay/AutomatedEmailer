@@ -76,9 +76,9 @@ if st.button("Send Email"):
 
   msg = email.message.Message()
   msg['Subject'] = f'{exam_type} Appointment'  # Assunto do E-mail
-  msg['From'] = 'leandroramos.dev@gmail.com'  # E-mail que vai enviar
+  msg['From'] = 'xxxxxx@gmail.com'  # E-mail que vai enviar
   msg['To'] = email_input
-  password = 'qwlh rmro gumd ufzf' # Set here the password with the "App passwords of Google"
+  password = 'xxxx xxxx xxxx xxxx' # Set here the password with the "App passwords of Google"
   msg.add_header('Content-Type', 'text/html')
   msg.set_payload(corpo_email)
 
